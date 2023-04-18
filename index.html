@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanorona</title>
+</head>
+<body>
+    <div class="welcoming">
+        <h1>WELCOME TO FANORONA GAME</h1>
+        <h6>RASAMOELINA Toky Sandratra Miharimamy IGGLIA3 number 06</h6>
+        <div class="choix">
+            <button  onclick="btn_startMultiplayer()">Multiplayer</button>
+            <button  onclick="btn_startOnePlayer()">One Player</button>
+        </div>
+    </div>
+    <div class="lunch">
+        <div class="titre">
+            <h1>FANORONA TELO</h1>
+        </div>
+          <div class="turn"></div>
+        <div class="game">
+            <div class="winner no-winner"><strong id="win" color="green"></strong>
+                <button class="btn" onclick="refresh();click_btn();">PLAY AGAIN</button>
+            </div>
+            <div class="gameTable">
+                <div class="position"id="p1"></div>
+                <div class="position"id="p2"></div> 
+                <div class="position"id="p3"></div>
+                <div class="position"id="p4"></div>
+                <div class="position"id="p5"></div>
+                <div class="position"id="p6"></div>
+                <div class="position"id="p7"></div>
+                <div class="position"id="p8"></div>
+                <div class="position"id="p9"></div>
+                </div>
+        </div> 
+        <audio class="errorSound" src="sound/error.mp3"></audio>
+        <audio class="moveSound" src="sound/move.mp3"></audio>
+        <audio class="winnerSound" src="sound/winner.mp3"></audio>
+        <audio class="slideSound" src="sound/slide.mp3"></audio>
+    </div>
+  
+   
+    <script src="app.js"></script>
+</body>
+</html>
