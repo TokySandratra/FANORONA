@@ -1,4 +1,4 @@
-# FANORONA :game_video:
+# FANORONA :video_game:
 - GasyGame Project
 - Name: RASAMOELINA Toky Sandratra Miharimamy
 - Field: IGGLIA 3
