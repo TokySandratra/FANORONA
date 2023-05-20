@@ -1,6 +1,6 @@
-# FANORONA
-GasyGame Project
-Name: RASAMOELINA Toky Sandratra Miharimamy
-Field: IGGLIA 3
-Number: 06
-deploy: https://tokysandratra.github.io/FANORONA/
+# FANORONA :game_video:
+- GasyGame Project
+- Name: RASAMOELINA Toky Sandratra Miharimamy
+- Field: IGGLIA 3
+- Number: 06
+- deploy: https://tokysandratra.github.io/FANORONA/
